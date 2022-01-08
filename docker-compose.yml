@@ -2,7 +2,7 @@ version: '2.2'
 
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.2
+    image: dragonq/elasticsearch:7.16.2_with_Nori
     container_name: elasticsearch
     environment:
       - node.name=elasticsearch
